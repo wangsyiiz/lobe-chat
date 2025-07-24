@@ -129,6 +129,7 @@
     "waitingForMore": "Có thêm mô hình đang <1>được lên kế hoạch tích hợp</1>, hãy chờ đợi"
   },
   "plugin": {
+    "addMCPPlugin": "Thêm plugin MCP",
     "addTooltip": "Thêm tiện ích",
     "clearDeprecated": "Xóa tiện ích không còn hỗ trợ",
     "empty": "Hiện chưa có tiện ích nào được cài đặt, hãy truy cập <1>cửa hàng tiện ích</1> để khám phá",
@@ -220,7 +221,7 @@
     },
     "inputTemplate": {
       "desc": "Tin nhắn mới nhất của người dùng sẽ được điền vào mẫu này",
-      "placeholder": "Mẫu xử lý trước {{input_template}} sẽ được thay thế bằng thông tin nhập thời gian thực",
+      "placeholder": "Mẫu xử lý trước {{text}} sẽ được thay thế bằng thông tin nhập thời gian thực",
       "title": "Mẫu xử lý đầu vào của người dùng"
     },
     "submit": "Cập nhật sở thích trò chuyện",
@@ -240,7 +241,19 @@
     "mermaidTheme": {
       "title": "Chủ đề Nàng Tiên Cá"
     },
-    "title": "Giao diện trò chuyện"
+    "title": "Giao diện trò chuyện",
+    "transitionMode": {
+      "desc": "Hiệu ứng chuyển tiếp của tin nhắn trò chuyện",
+      "options": {
+        "fadeIn": "Mờ dần",
+        "none": {
+          "desc": "Điều này phụ thuộc vào cách mô hình phản hồi, vui lòng tự kiểm tra.",
+          "value": "Không"
+        },
+        "smooth": "Mượt mà"
+      },
+      "title": "Hiệu ứng chuyển tiếp"
+    }
   },
   "settingCommon": {
     "lang": {
@@ -471,6 +484,11 @@
       "placeholder": "Nhập từ gợi ý tùy chỉnh",
       "title": "Từ gợi ý tùy chỉnh"
     },
+    "generationTopic": {
+      "label": "Mô hình đặt tên chủ đề vẽ AI",
+      "modelDesc": "Mô hình được chỉ định để tự động đặt tên chủ đề cho vẽ AI",
+      "title": "Tự động đặt tên chủ đề vẽ AI"
+    },
     "helpInfo": "Khi tạo trợ lý mới, sẽ sử dụng cài đặt trợ lý mặc định làm giá trị mặc định.",
     "historyCompress": {
       "label": "Mô hình lịch sử cuộc trò chuyện",
@@ -507,6 +525,7 @@
     "hotkey": "Phím tắt",
     "llm": "Mô hình ngôn ngữ",
     "provider": "Nhà cung cấp AI",
+    "proxy": "Mạng proxy",
     "storage": "Lưu trữ dữ liệu",
     "sync": "Đồng bộ trên đám mây",
     "system-agent": "Trợ lý hệ thống",

@@ -129,6 +129,7 @@
     "waitingForMore": "Mais modelos estão sendo <1>planejados para serem adicionados</1>, aguarde ansiosamente"
   },
   "plugin": {
+    "addMCPPlugin": "Adicionar plugin MCP",
     "addTooltip": "Adicionar plug-in personalizado",
     "clearDeprecated": "Remover plug-ins inválidos",
     "empty": "Nenhum plug-in instalado no momento, visite a <1>loja de plug-ins</1> para explorar",
@@ -220,7 +221,7 @@
     },
     "inputTemplate": {
       "desc": "A última mensagem do usuário será preenchida neste modelo",
-      "placeholder": "O modelo de pré-processamento {{input_template}} será substituído pela entrada em tempo real",
+      "placeholder": "O modelo de pré-processamento {{text}} será substituído pela entrada em tempo real",
       "title": "Pré-processamento de entrada do usuário"
     },
     "submit": "Atualizar preferências de chat",
@@ -240,7 +241,19 @@
     "mermaidTheme": {
       "title": "Tema Sereia"
     },
-    "title": "Aparência do Chat"
+    "title": "Aparência do Chat",
+    "transitionMode": {
+      "desc": "Animação de transição das mensagens do chat",
+      "options": {
+        "fadeIn": "Desvanecer",
+        "none": {
+          "desc": "Depende da forma como o modelo responde, por favor teste por conta própria.",
+          "value": "Nenhuma"
+        },
+        "smooth": "Suave"
+      },
+      "title": "Animação de transição"
+    }
   },
   "settingCommon": {
     "lang": {
@@ -471,6 +484,11 @@
       "placeholder": "Digite a palavra-chave personalizada",
       "title": "Palavra-chave personalizada"
     },
+    "generationTopic": {
+      "label": "Modelo de Nomeação de Tópicos para Pintura AI",
+      "modelDesc": "Modelo designado para nomeação automática de tópicos em pintura AI",
+      "title": "Nomeação Automática de Tópicos para Pintura AI"
+    },
     "helpInfo": "Ao criar um novo assistente, as configurações padrão do assistente serão usadas como valores predefinidos.",
     "historyCompress": {
       "label": "Modelo de Histórico de Conversa",
@@ -507,6 +525,7 @@
     "hotkey": "Atalhos",
     "llm": "Modelo de Linguagem",
     "provider": "Fornecedor de IA",
+    "proxy": "Proxy de Rede",
     "storage": "Armazenamento de Dados",
     "sync": "Sincronização na nuvem",
     "system-agent": "Assistente do Sistema",

@@ -131,6 +131,7 @@ export default {
     waitingForMore: '更多模型正在 <1>计划接入</1> 中，敬请期待',
   },
   plugin: {
+    addMCPPlugin: '添加 MCP 插件',
     addTooltip: '自定义插件',
     clearDeprecated: '移除无效插件',
     empty: '暂无已安装插件，欢迎前往 <1>插件商店</1> 探索',
@@ -224,7 +225,7 @@ export default {
     },
     inputTemplate: {
       desc: '用户最新的一条消息会填充到此模板',
-      placeholder: '预处理模版 {{input_template}} 将替换为实时输入信息',
+      placeholder: '预处理模版 {{text}} 将替换为实时输入信息',
       title: '用户输入预处理',
     },
     submit: '更新聊天偏好',
@@ -245,6 +246,18 @@ export default {
       title: 'Mermaid 主题',
     },
     title: '聊天外观',
+    transitionMode: {
+      desc: '聊天消息的过渡动画',
+      options: {
+        fadeIn: '淡入',
+        none: {
+          desc: '这取决于模型的响应输出方式，请自行测试。',
+          value: '无',
+        },
+        smooth: '平滑',
+      },
+      title: '过渡动画',
+    },
   },
   settingCommon: {
     lang: {
@@ -475,6 +488,11 @@ export default {
       placeholder: '请输入自定义提示词',
       title: '自定义提示词',
     },
+    generationTopic: {
+      label: 'AI 绘画话题命名模型',
+      modelDesc: '指定用于 AI 绘画自动命名话题的模型',
+      title: 'AI 绘画自动命名话题',
+    },
     helpInfo: '当创建新助手时，将以默认助手设置作为预设值。',
     historyCompress: {
       label: '会话历史模型',
@@ -511,6 +529,7 @@ export default {
     'hotkey': '快捷键',
     'llm': '语言模型',
     'provider': 'AI 服务商',
+    'proxy': '网络代理',
     'storage': '数据存储',
     'sync': '云端同步',
     'system-agent': '系统助手',

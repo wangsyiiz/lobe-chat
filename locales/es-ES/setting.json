@@ -129,6 +129,7 @@
     "waitingForMore": "Más modelos están en <1>planificación para su incorporación</1>, ¡estén atentos!"
   },
   "plugin": {
+    "addMCPPlugin": "Agregar complemento MCP",
     "addTooltip": "Agregar complemento personalizado",
     "clearDeprecated": "Eliminar complementos obsoletos",
     "empty": "No hay complementos instalados actualmente, visita la <1>tienda de complementos</1> para explorar",
@@ -220,7 +221,7 @@
     },
     "inputTemplate": {
       "desc": "El último mensaje del usuario se completará en esta plantilla",
-      "placeholder": "La plantilla de preprocesamiento {{input_template}} se reemplazará por la información de entrada en tiempo real",
+      "placeholder": "La plantilla de preprocesamiento {{text}} se reemplazará por la información de entrada en tiempo real",
       "title": "Preprocesamiento de entrada del usuario"
     },
     "submit": "Actualizar preferencias de chat",
@@ -240,7 +241,19 @@
     "mermaidTheme": {
       "title": "Tema Sirena"
     },
-    "title": "Apariencia del Chat"
+    "title": "Apariencia del Chat",
+    "transitionMode": {
+      "desc": "Animación de transición de los mensajes de chat",
+      "options": {
+        "fadeIn": "Aparecer gradualmente",
+        "none": {
+          "desc": "Depende de la forma en que el modelo genera la respuesta, por favor pruébelo usted mismo.",
+          "value": "Ninguna"
+        },
+        "smooth": "Suave"
+      },
+      "title": "Animación de transición"
+    }
   },
   "settingCommon": {
     "lang": {
@@ -471,6 +484,11 @@
       "placeholder": "Introduce la palabra clave personalizada",
       "title": "Palabra clave personalizada"
     },
+    "generationTopic": {
+      "label": "Modelo de denominación de temas para pintura AI",
+      "modelDesc": "Modelo designado para la denominación automática de temas en pintura AI",
+      "title": "Denominación automática de temas para pintura AI"
+    },
     "helpInfo": "Al crear un nuevo asistente, se utilizarán los ajustes predeterminados del asistente como valores predeterminados.",
     "historyCompress": {
       "label": "Modelo de historial de conversación",
@@ -507,6 +525,7 @@
     "hotkey": "Atajos de teclado",
     "llm": "Modelo de lenguaje",
     "provider": "Proveedor de servicios de IA",
+    "proxy": "Proxy de red",
     "storage": "Almacenamiento de datos",
     "sync": "Sincronización en la nube",
     "system-agent": "Asistente del sistema",
