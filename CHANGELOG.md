@@ -2,6 +2,98 @@
 
 # Changelog
 
+## [Version 1.134.0](https://github.com/lobehub/lobe-chat/compare/v1.133.6...v1.134.0)
+
+<sup>Released on **2025-10-04**</sup>
+
+#### ✨ Features
+
+- **misc**: Support double-click to open multi agent window on the desktop.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support double-click to open multi agent window on the desktop, closes [#9331](https://github.com/lobehub/lobe-chat/issues/9331) ([a060901](https://github.com/lobehub/lobe-chat/commit/a060901))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.133.6](https://github.com/lobehub/lobe-chat/compare/v1.133.5...v1.133.6)
+
+<sup>Released on **2025-10-04**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: `type` not preserved when model is disabled or sorted.
+
+#### 💄 Styles
+
+- **misc**: Nano banana support `aspect_ratio`.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: `type` not preserved when model is disabled or sorted, closes [#9530](https://github.com/lobehub/lobe-chat/issues/9530) ([476b897](https://github.com/lobehub/lobe-chat/commit/476b897))
+
+#### Styles
+
+- **misc**: Nano banana support `aspect_ratio`, closes [#9528](https://github.com/lobehub/lobe-chat/issues/9528) ([ae3ed6e](https://github.com/lobehub/lobe-chat/commit/ae3ed6e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.133.5](https://github.com/lobehub/lobe-chat/compare/v1.133.4...v1.133.5)
+
+<sup>Released on **2025-10-04**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Custom provider fails when client requests are enabled.
+
+#### 💄 Styles
+
+- **misc**: Optimized `extendParams` UI, update i18n.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Custom provider fails when client requests are enabled, closes [#9534](https://github.com/lobehub/lobe-chat/issues/9534) ([8b12fdf](https://github.com/lobehub/lobe-chat/commit/8b12fdf))
+
+#### Styles
+
+- **misc**: Optimized `extendParams` UI, closes [#9457](https://github.com/lobehub/lobe-chat/issues/9457) ([582f6d1](https://github.com/lobehub/lobe-chat/commit/582f6d1))
+- **misc**: Update i18n, closes [#9514](https://github.com/lobehub/lobe-chat/issues/9514) ([6430f57](https://github.com/lobehub/lobe-chat/commit/6430f57))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.133.4](https://github.com/lobehub/lobe-chat/compare/v1.133.3...v1.133.4)
 
 <sup>Released on **2025-10-01**</sup>
